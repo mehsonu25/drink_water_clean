@@ -1,0 +1,169 @@
+# Compiled class files
+target/
+project/target/
+project/project/
+
+# Dependency management
+lib_managed/
+*.jar
+*.class
+
+# Scala
+.bsp/
+.idea/
+.idea_modules/
+
+# sbt
+project/target/
+project/project/target/
+project/project/project/
+project/boot/
+project/plugins/project/
+lib_managed/
+src_managed/
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+.tm_properties
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env*.local
+/.env.example
+/.env
+
+# Credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+
+# IDE specific
+*.swp
+*.swo
+
+# Build tools
+.ensime
+.ensime_cache/
+
+# Scala REPL history
+.jvmopts
+.ivy2/
+.coursier/
+
+# Metals (Scala Language Server)
+.metals/
+.bloop/
+
+# SBT cache
+ivy2/
+coursier/
+
+# System files
+Thumbs.db
+.eot
+
+# Coverage reports
+coverage-report/
+scoverage-data/
+
+# Test results
+test-results/
+
+# Profiler data
+*.hprof
+
+# IDE run configurations
+.run/
+.idea/runConfigurations/
+
+# Scala.js and Scala Native
+.js/
+.native/
+
+# Docker
+.env
+Dockerfile
+.dockerignore
+
+# Gradle
+gradle/
+build/
+
+# Maven
+target/
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timestamp
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ruby
+.bundle/
+Gemfile.lock
+
+# Java
+*.class
+
+# OS generated files
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Database files
+*.sqlite
+*.sqlite-journal
+*.db
+*.db-journal
