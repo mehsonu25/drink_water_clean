@@ -2,7 +2,7 @@ case class TwilioConfig(
   accountSid: String,
   authToken: String,
   fromNumber: String,
-  toNumber: String
+  toNumber: List[String]
 )
 
 case class AppConfig(

@@ -6,7 +6,10 @@ object Main extends App {
       accountSid = ConfigLoader.getEnvVar("TWILIO_ACCOUNT_SID"),
       authToken = ConfigLoader.getEnvVar("TWILIO_AUTH_TOKEN"),
       fromNumber = ConfigLoader.getEnvVar("TWILIO_FROM_NUMBER"),
-      toNumber = ConfigLoader.getEnvVar("TWILIO_TO_NUMBER")
+      toNumber = List(
+        ConfigLoader.getEnvVar("CUST1_TWILIO_TO_NUMBER"),
+        ConfigLoader.getEnvVar("CUST2_TWILIO_TO_NUMBER")
+      )
     ),
     reminderIntervalHours = ConfigLoader.getEnvVar("REMINDER_INTERVAL_HOURS", "1").toLong,
     initialDelayHours = ConfigLoader.getEnvVar("INITIAL_DELAY_HOURS", "0").toLong
